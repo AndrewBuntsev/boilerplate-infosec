@@ -8,6 +8,8 @@ const app = express(); // Do Not Edit
 
 const helmet = require('helmet');
 
+const bcrypt = require('bcrypt');
+
 // ----
 
 /** - Challenges - *
